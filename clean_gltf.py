@@ -1,6 +1,9 @@
 import json
 import sys
 from pathlib import Path
+#TODO attach the hand landmarks to the skeleton rigs
+# Use phantom hand tracker by git installing it
+# Add interpolation and smoothing
 
 def remove_animations(gltf_path, output_path=None):
     """
