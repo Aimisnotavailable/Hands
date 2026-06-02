@@ -4,6 +4,7 @@ from pathlib import Path
 #TODO attach the hand landmarks to the skeleton rigs
 # Use phantom hand tracker by git installing it
 # Add interpolation and smoothing
+# LOL need to abandon this project for a while to grind leetcode that was the worst interview ever
 
 def remove_animations(gltf_path, output_path=None):
     """
