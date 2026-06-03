@@ -1,7 +1,7 @@
 import json
 import sys
 from pathlib import Path
-#TODO attach the hand landmarks to the skeleton rigs
+# TODO attach the hand landmarks to the skeleton rigs
 # Use phantom hand tracker by git installing it
 # Add interpolation and smoothing
 # LOL need to abandon this project for a while to grind leetcode that was the worst interview ever
