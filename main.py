@@ -1,6 +1,8 @@
 from direct.showbase.ShowBase import ShowBase
 from panda3d.core import getModelPath, Point3
 
+# Should I even bind the joints and skeleton?
+
 class GltfViewer(ShowBase):
     def __init__(self):
         ShowBase.__init__(self)
