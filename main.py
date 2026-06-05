@@ -22,7 +22,7 @@ class GltfViewer(ShowBase):
         self.pivot = self.render.attachNewNode("model_pivot")
         self.model.reparentTo(self.pivot)
         self.model.setPos(-centre)
-
+        print(list(dir(self.model)))
         self.disableMouse()
 
         # ---- Camera setup ----
